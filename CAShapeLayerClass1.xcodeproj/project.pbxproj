@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9637251C97B82300B09F58 /* PieChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9637241C97B82300B09F58 /* PieChatView.m */; };
 		0AB442A91C96A53C009369B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB442A81C96A53C009369B9 /* main.m */; };
 		0AB442AC1C96A53C009369B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB442AB1C96A53C009369B9 /* AppDelegate.m */; };
 		0AB442AF1C96A53C009369B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB442AE1C96A53C009369B9 /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		0AB442B71C96A53C009369B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB442B51C96A53C009369B9 /* LaunchScreen.storyboard */; };
 		0AB442C21C96A53C009369B9 /* CAShapeLayerClass1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB442C11C96A53C009369B9 /* CAShapeLayerClass1Tests.m */; };
 		0AB442CD1C96A53C009369B9 /* CAShapeLayerClass1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB442CC1C96A53C009369B9 /* CAShapeLayerClass1UITests.m */; };
+		0AB442DC1C96D20D009369B9 /* diandian.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB442DA1C96D20D009369B9 /* diandian.png */; };
+		0AB442DD1C96D20D009369B9 /* diandian@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB442DB1C96D20D009369B9 /* diandian@3x.png */; };
+		0AB442E11C96D256009369B9 /* jiantou@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB442DE1C96D256009369B9 /* jiantou@1x.png */; };
+		0AB442E21C96D256009369B9 /* jiantou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB442DF1C96D256009369B9 /* jiantou@2x.png */; };
+		0AB442E31C96D256009369B9 /* jiantou@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AB442E01C96D256009369B9 /* jiantou@3x.png */; };
+		185ABC3E1C97E70E004738FF /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ABC3D1C97E70E004738FF /* secondViewController.m */; };
+		45344A8E1E0395920094FF78 /* 测谎-指针.png in Resources */ = {isa = PBXBuildFile; fileRef = 45344A8B1E0395920094FF78 /* 测谎-指针.png */; };
+		45344A8F1E0395920094FF78 /* 测谎-back1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45344A8C1E0395920094FF78 /* 测谎-back1.png */; };
+		45344A901E0395920094FF78 /* 测谎-pic1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45344A8D1E0395920094FF78 /* 测谎-pic1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A9637231C97B82300B09F58 /* PieChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChatView.h; sourceTree = "<group>"; };
+		0A9637241C97B82300B09F58 /* PieChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChatView.m; sourceTree = "<group>"; };
+		0A9637261C97BCB100B09F58 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0AB442A41C96A53C009369B9 /* CAShapeLayerClass1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapeLayerClass1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB442A81C96A53C009369B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AB442AA1C96A53C009369B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,16 @@
 		0AB442C81C96A53C009369B9 /* CAShapeLayerClass1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerClass1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB442CC1C96A53C009369B9 /* CAShapeLayerClass1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerClass1UITests.m; sourceTree = "<group>"; };
 		0AB442CE1C96A53C009369B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AB442DA1C96D20D009369B9 /* diandian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diandian.png; sourceTree = "<group>"; };
+		0AB442DB1C96D20D009369B9 /* diandian@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "diandian@3x.png"; sourceTree = "<group>"; };
+		0AB442DE1C96D256009369B9 /* jiantou@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiantou@1x.png"; sourceTree = "<group>"; };
+		0AB442DF1C96D256009369B9 /* jiantou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiantou@2x.png"; sourceTree = "<group>"; };
+		0AB442E01C96D256009369B9 /* jiantou@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jiantou@3x.png"; sourceTree = "<group>"; };
+		185ABC3C1C97E70E004738FF /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		185ABC3D1C97E70E004738FF /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		45344A8B1E0395920094FF78 /* 测谎-指针.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测谎-指针.png"; sourceTree = "<group>"; };
+		45344A8C1E0395920094FF78 /* 测谎-back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测谎-back1.png"; sourceTree = "<group>"; };
+		45344A8D1E0395920094FF78 /* 测谎-pic1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测谎-pic1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +126,21 @@
 			children = (
 				0AB442AA1C96A53C009369B9 /* AppDelegate.h */,
 				0AB442AB1C96A53C009369B9 /* AppDelegate.m */,
+				45344A8B1E0395920094FF78 /* 测谎-指针.png */,
+				45344A8C1E0395920094FF78 /* 测谎-back1.png */,
+				45344A8D1E0395920094FF78 /* 测谎-pic1.png */,
+				0AB442DE1C96D256009369B9 /* jiantou@1x.png */,
+				0AB442DF1C96D256009369B9 /* jiantou@2x.png */,
+				0AB442E01C96D256009369B9 /* jiantou@3x.png */,
+				0AB442DA1C96D20D009369B9 /* diandian.png */,
+				0AB442DB1C96D20D009369B9 /* diandian@3x.png */,
 				0AB442AD1C96A53C009369B9 /* ViewController.h */,
 				0AB442AE1C96A53C009369B9 /* ViewController.m */,
+				185ABC3C1C97E70E004738FF /* secondViewController.h */,
+				185ABC3D1C97E70E004738FF /* secondViewController.m */,
+				0A9637231C97B82300B09F58 /* PieChatView.h */,
+				0A9637241C97B82300B09F58 /* PieChatView.m */,
+				0A9637261C97BCB100B09F58 /* PrefixHeader.pch */,
 				0AB442B01C96A53C009369B9 /* Main.storyboard */,
 				0AB442B31C96A53C009369B9 /* Assets.xcassets */,
 				0AB442B51C96A53C009369B9 /* LaunchScreen.storyboard */,
@@ -243,8 +279,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB442DC1C96D20D009369B9 /* diandian.png in Resources */,
 				0AB442B71C96A53C009369B9 /* LaunchScreen.storyboard in Resources */,
+				0AB442DD1C96D20D009369B9 /* diandian@3x.png in Resources */,
+				45344A8F1E0395920094FF78 /* 测谎-back1.png in Resources */,
+				45344A8E1E0395920094FF78 /* 测谎-指针.png in Resources */,
 				0AB442B41C96A53C009369B9 /* Assets.xcassets in Resources */,
+				0AB442E11C96D256009369B9 /* jiantou@1x.png in Resources */,
+				45344A901E0395920094FF78 /* 测谎-pic1.png in Resources */,
+				0AB442E21C96D256009369B9 /* jiantou@2x.png in Resources */,
+				0AB442E31C96D256009369B9 /* jiantou@3x.png in Resources */,
 				0AB442B21C96A53C009369B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,8 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB442AF1C96A53C009369B9 /* ViewController.m in Sources */,
+				0A9637251C97B82300B09F58 /* PieChatView.m in Sources */,
 				0AB442AC1C96A53C009369B9 /* AppDelegate.m in Sources */,
 				0AB442A91C96A53C009369B9 /* main.m in Sources */,
+				185ABC3E1C97E70E004738FF /* secondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CAShapeLayerClass1/PrefixHeader.pch";
 				INFOPLIST_FILE = CAShapeLayerClass1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.CAShapeLayerClass1;
@@ -422,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CAShapeLayerClass1/PrefixHeader.pch";
 				INFOPLIST_FILE = CAShapeLayerClass1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = no.CAShapeLayerClass1;
@@ -496,6 +544,7 @@
 				0AB442D31C96A53C009369B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB442D41C96A53C009369B9 /* Build configuration list for PBXNativeTarget "CAShapeLayerClass1Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +553,7 @@
 				0AB442D61C96A53C009369B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AB442D71C96A53C009369B9 /* Build configuration list for PBXNativeTarget "CAShapeLayerClass1UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +562,7 @@
 				0AB442D91C96A53C009369B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
